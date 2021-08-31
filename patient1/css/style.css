@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Libre+Baskerville:wght@700&family=Lobster&family=Patua+One&family=Rubik&family=Sniglet&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+header,
+section{
+    overflow-x: hidden;
+}
+
+
+:root{
+    --Snigle-font:"Sniglet",cursive;
+    --Rubik:"Rubik",cursive;
+    --Patua:"Patua One",cursive;
+    --Lobster:"Lobster",cursive;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(
+        to bottom,#1092dd,#1bdeec);
+        --light-gray:rgba(255,255,255,0.7);
+    
+
+}
+header a{
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color:whitesmoke;
+}
+header{
+    background:#1092dd;
+    background:var(--bggradient);
+}
+
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding: 0.9em;
+    font-family: var(--Patua);
+}
+
+header .navbar-brand{
+    padding-left:8rem;
+}
+
+header .nav-link:hover{
+    color:black;
+}
+
+header .row .col-md-5{
+    padding:8.2vmin 0vmin;
+
+}
+header .row .col-md-7{
+    padding:10vmin 1vmin;
+    padding-bottom: 5vmin;
+    font-family: var(--Rubik);
+    color:white;
+}
+header .row .col-md-5 img{
+    width: 50%;
+
+}
+
+header .container .col-md-7 h3{
+    padding:1vmin;
+    letter-spacing:4px;
+}
+
+header .container .col-md-7 p{
+    font: size 8.5vmin;
+    font-weight: bold;
+    padding:0.1em 0em;
+}
+header .container .col-md7 p{
+    padding:1vmin 5vmin;
+}
+header .row1 .col-md-12 h2{
+    font-family: var(--Rubik);
+    color:white;
+    letter-spacing: 4px;
+
+}
+header .row1 .col-md-12 h1{
+    font: size 8.5vmin;
+    font-weight: bold;
+
+}
+header .row1 .col-md-12 btn a{
+    border-radius: 1rem;
+}
+/*for section*/
+.section1{
+    padding:20vmin;
+}
+
+section1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width:80%;
+    border-radius:0.2em;
+
+
+}
+
+.section1 .row .col-md-6:last-child{
+    position:relative;
+}
+.section1 .row .col-md-6 .panel{
+    position:absolute;
+    top:7vmin;
+    left:-18vmin;
+    background: white;;
+    border-radius: 3px;
+    text-align: left;
+    padding:13vmin 5vmin 20vmin 10vmin;
+    box-shadow:0px 25px 42px rgba(0,0,0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section1 .row .col-md-6 .panel h1{
+    font-family: bold;
+    padding:0.4em 0;
+    font-size: 2em;
+}
+.section1 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+    color:rgba(0,0,0,0.5);
+
+
+}
+footer{
+    background: rgba(0,0,0,0.815);
+    overflow-x: hidden;
+    padding:14vmin 18vmin;
+}
+
+footer input{
+    border: none !important;
+
+}
+
+footer input::placeholder{
+    color:white !important;
+}
+
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+footer .column i{
+    color:#0d9cdf;
+}
+footer .column i +i{
+    padding:0 0.5em;
+}
+
+
+@media only screen and(max-width:450){
+    footer .row .col-md-2{
+        margin-top:8vmin;
+    }
+}
+

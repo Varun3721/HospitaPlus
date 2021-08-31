@@ -1,0 +1,50 @@
+main {
+  background: url("../img/back.jpg") no-repeat; 
+  background-size: cover;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.form-horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  width: 85%;
+    margin-left: 15%;
+}
+
+.row h1 {
+  color: black;
+}
+.form-group{
+    margin-top: 1.2%;
+    width: 80%;
+}
+.form-check{
+    margin-top: 1.2%;
+    margin-left: 15%;
+}
+.sb_btn{
+    margin-top: 1.2%;
+   padding-left: 25%;
+}
+.form_div{
+    width: 50%;
+    margin-left: 24%;
+    padding: 2%;
+    margin-top: 0%;
+}
+@media only screen and (max-width: 720px){
+    .form_div{
+        width: 100%;
+       
+        margin-left: 0%;
+        
+    }
+}
